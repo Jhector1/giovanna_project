@@ -1,0 +1,22 @@
+.btns {
+  margin-right: 15%;
+}
+
+.question_list:last-child {
+  border-bottom: #000000 1px dashed;
+}
+
+@media (max-width: 60em) {
+  .btns {
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .btns button {
+    flex: 1;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+  }
+}

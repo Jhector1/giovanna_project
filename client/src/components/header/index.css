@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+}
+.default{
+  background: #dddddd;
+}
+.title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+ .colorChoiceBlackHeader{
+  background-color: black;
+ }
+ /* HEADER*/ 
+ .colorChoiceBlueHeader{
+  background-color: #02476f; 
+ /* header-color: blue; */
+ }
+ .colorChoiceOrangeHeader{
+  background-color: #875c01; 
+ /* header-color: orange; */
+}
+.colorChoiceTealHeader{
+ background-color: #015c5c; 
+/* header-color: teal; */
+
+}
+.colorChoiceYellowHeader{
+ background-color: #98902b; 
+/* header-color: yellow; */
+
+}
+.colorChoicePurpleHeader{
+ background-color: #5e3e7d; 
+/* header-color: purple; */
+
+}
+.colorChoiceWhiteHeader{
+ background-color: #FFFFFF; 
+/* header-color: white */
+ }
+ .colorChoiceBlackeHeader{
+  background-color: #000000; 
+ /* header-color: black; */
+ }
+ 
