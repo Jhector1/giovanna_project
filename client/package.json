@@ -21,8 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll",
-    "eject": "react-scripts eject", 
-     "lint": "eslint .",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "eslintConfig": {
@@ -49,6 +49,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^8.57.0",
+    "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.57.0",
