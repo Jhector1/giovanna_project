@@ -41,7 +41,7 @@
   },
   "scripts": {
 
-  "start": "node --max-old-space-size=4096 ts-node server.ts",
+ "start": "node --max-old-space-size=4096 node_modules/.bin/ts-node server.ts",
 
 
    
