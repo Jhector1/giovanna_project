@@ -7,7 +7,6 @@ import dataStorageReducer from './reducer';
  */
 const store = configureStore({
   reducer: {
-
     /**
      * Key for the reducer managing data storage-related state.
      * The `dataStorageReducer` handles actions related to color blindness modes and other data storage settings.

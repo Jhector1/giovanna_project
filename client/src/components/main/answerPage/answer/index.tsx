@@ -7,10 +7,8 @@ import './index.css';
 
 import { Comment, RootsState } from '../../../../types';
 
-
 import useTextToSpeech from '../../../../hooks/useTextToSpeech';
 import { ReactComponent as SpeakerIcon } from '../../../../tool/speaker.svg';
-
 
 /**
  * Interface representing the props for the AnswerView component.
@@ -40,9 +38,7 @@ interface AnswerProps {
  * @param handleAddComment Function to handle adding a new comment.
  */
 const AnswerView = ({ text, ansBy, meta, comments, handleAddComment }: AnswerProps) => {
-
   const { sidebarMode } = useSelector((state: RootsState) => state.dataStorageReducer.datastorages);
-
 
   const { speak } = useTextToSpeech();
 

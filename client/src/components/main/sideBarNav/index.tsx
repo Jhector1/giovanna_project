@@ -53,7 +53,6 @@ const SideBarNav = () => {
       // Redirect to login page
       navigate('/');
       console.log('User logged out successfully');
-
     } catch (error) {
       console.log('Logout error:', error);
     }

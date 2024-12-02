@@ -32,7 +32,6 @@ interface QuestionBodyProps {
  * @param meta Additional metadata related to the question.
  */
 const QuestionBody = ({ views, text, askby, meta }: QuestionBodyProps) => {
-
   const { buttonMode } = useSelector((state: RootsState) => state.dataStorageReducer.datastorages);
   const { speak } = useTextToSpeech();
 
@@ -47,12 +46,9 @@ const QuestionBody = ({ views, text, askby, meta }: QuestionBodyProps) => {
         <button className='speaker_button' onClick={handleTextClick} aria-label='Read text'>
           <SpeakerIcon className='speaker_button' />
         </button>
-
       </div>
       <div className='answer_question_right'>
         <div className={`${buttonMode || 'question-author-bg-color'} question_author`}>{askby}</div>
-
-
 
         <div className='answer_question_meta'>asked {meta}</div>
       </div>
